@@ -11,17 +11,17 @@
         h1, h2, h6{
             color: #D3AF37;
             text-align: center;
-            font-size: 2em
+            font-size: 1.5em
         }
-        h3, h4, h5, h6 {
+        h3, h4, h5 {
             color: #D3AF37;
             text-align: left;
-            font-size: 2em
+            font-size: 1.5em
         }
-        p, ul {
+        p, ul, h7 {
             color: white;
             text-align: left;
-            font-size: 1.5em
+            font-size: 1.25em
         }
 
         
@@ -30,7 +30,13 @@
     <body>
         <h1>BaristaLang</h1>
         <h2>By Simmon Quan</h2>
-        <h6><button onclick="window.location.href='https://github.com/SimmonQuan/BaristaLang';">View on Github</button></h6>
+        <h6>
+            <button>
+                onclick="window.location.href='https://github.com/SimmonQuan/BaristaLang';"
+                style = "background-color: #D3AF37; color: white; padding: 15px 32px; font-size: 20px; boarder: none; cursor: pointer;">
+                View on Github
+            </button>
+        </h6>
         <h3>About the language:</h3>
         <p>BaristaLang is a python based scripting language that aims to emulate a conversation a customer would have with a barista at a cafe.
             The goal of baristaLang is to have an easy to learn, human-speech like syntax that will hopefully get beginners to start coding.</p>
@@ -44,6 +50,20 @@
             <li>prompts for ASCII art</li>
         </ul>
         <h5>Example:</h5>
-        <img src = "SampleProgram.png" alt = "Sample Program" width = "250"
+        <h7>coffee = 10 + 20
+            matcha = 60 - 30
+            donut = 100 / 5
+            Can you show me latte art of my name DABISH?
+            Can I take a look at your menu?
+            orangeDrink
+            If coffee is not in stock, can I get donut?
+            If donut is not in stock, can I get orangeDrink?
+            If milkShake is not in stock, can I get coffee?
+            donut = (6 + 2) * (8 + 9)
+            coffee = (5 - 2) / (3 - 0)
+            I would like to order(donut)
+            I would like to order(coffee)
+            Does your cafe sell any fizzy drinks?
+        </h7>
     </body>
 </html>
