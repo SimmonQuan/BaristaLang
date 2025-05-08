@@ -1,0 +1,22 @@
+coffee = 10 + 20
+matcha = 60 - 30
+donut = 100 / 5
+Can you show me latte art of my name DABISH?
+Can I take a look at your menu?
+orangeDrink
+If coffee is not in stock, can I get donut?
+If donut is not in stock, can I get orangeDrink?
+If milkShake is not in stock, can I get coffee?
+donut = (6 + 2) * (8 + 9)
+coffee = (5 - 2) / (3 - 0)
+I would like to order(donut)
+I would like to order(coffee)
+Does your cafe sell any fizzy drinks?
+
+
+
+
+
+
+
+
